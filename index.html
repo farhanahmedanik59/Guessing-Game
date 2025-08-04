@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/tailwind.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-red-200">
+    <heade class="flex justify-between max-w-[1140px] m-auto mt-8 items-center">
+      <div>
+        <button class="reset-button">Play Again</button>
+      </div>
+      <div><p class="font-bold text-2xl">Between 1 and 20</p></div>
+    </heade>
+    <main>
+      <section>
+        <div>
+          <p class="text-center mt-14 text-7xl font-bold">Guess Any Number</p>
+        </div>
+      </section>
+      <section class="flex flex-col">
+        <div class="correct-number">
+          <p class="text-center font-bold text-4xl">Correct</p>
+          <p class="text-center font-bold text-4xl">
+            The number Is : <span id="correct_number">10</span>
+          </p>
+        </div>
+        <p class="text-center text-3xl font-black m-auto" id="guess">
+          Start Guessing...................
+        </p>
+      </section>
+    </main>
+    <footer class="max-w-[1140px] m-auto mt-10">
+      <div>
+        <input
+          type="text"
+          name=""
+          id="number"
+          class="input_number w-1/3 border p-2.5 rounded-[10px] text-2xl indent-10 block"
+          placeholder="Type Your Lucky Number.. "
+          min="1"
+          max="10"
+        />
+        <button type="submit" class="submit-btn text-white" onclick="check()">
+          Check Now!
+        </button>
+      </div>
+      <div></div>
+    </footer>
+    <script src="script/script.js"></script>
+  </body>
+</html>
