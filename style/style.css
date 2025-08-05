@@ -16,7 +16,7 @@
   border-radius: 10px;
   margin-bottom: 30px;
 }
-.submit-btn{
+.submit-btn,.reset-btn{
   margin-top: 10px;
   background-color: #D43852;
   padding: 13px;

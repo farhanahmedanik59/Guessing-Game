@@ -10,14 +10,22 @@ function random() {
 }
 random();
 
+function reset() {
+  location.reload(true);
+}
+
+
 function check() {
   console.log("hidden number=", randomNumber);
   if (randomNumber === parseInt(inputNumber.value)) {
     document.getElementById("correct_number").innerHTML = inputNumber.value;
-    document.getElementById("guess").innerHTML =
-      "🎉 Correct! You guessed it in " + attempts + " tries.";
 
-    random();
+    document.getElementById("guess").innerHTML = `"🎉 Correct! You guessed it"`;
+    let a = 0;
+    while (20 > a) {
+      a++;
+      console.log(a);
+    }
   } else {
     document.getElementById("correct_number").innerHTML = "Not correct";
     attempts++;
