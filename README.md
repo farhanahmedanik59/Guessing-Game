@@ -50,10 +50,10 @@ A fun, interactive number guessing game built with **HTML**, **Tailwind CSS**, a
 
 ## 📁 Project Structure
 Guessing-Game/
-├── index.html # Main game interface
-├── script/
-│ └── script.js # Game logic and interactivity
-├── style/
-│ ├── style.css # Custom styles (optional)
-│ └── tailwind.css # Tailwind framework
-└── README.md # Project documentation
+#├── index.html # Main game interface
+#├── script/
+#│ └── script.js # Game logic and interactivity
+#├── style/
+#│ ├── style.css # Custom styles (optional)
+#│ └── tailwind.css # Tailwind framework
+#└── README.md # Project documentation
