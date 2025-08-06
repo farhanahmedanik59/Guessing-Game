@@ -54,8 +54,13 @@ Guessing-Game/
 ├── index.html # Main game interface
 <br>
 ├── script/
+<br>
 │ └── script.js # Game logic and interactivity
+<br>
 ├── style/
+<br>
 │ ├── style.css # Custom styles (optional)
+<br>
 │ └── tailwind.css # Tailwind framework
+<br>
 └── README.md # Project documentation
