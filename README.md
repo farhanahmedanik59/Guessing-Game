@@ -12,7 +12,7 @@ A fun, interactive number guessing game built with **HTML**, **Tailwind CSS**, a
 
 ## 📸 Screenshot
 
-*(Add a screenshot here if available)*  
+
 ![Game Preview](preview/preview.png)
 
 ---
@@ -55,12 +55,12 @@ Guessing-Game/
 <br>
 ├── script/
 <br>
-│ └── script.js # Game logic and interactivity
+ │ └── script.js # Game logic and interactivity
 <br>
 ├── style/
 <br>
-│ ├── style.css # Custom styles (optional)
+ │ ├── style.css # Custom styles (optional)
 <br>
-│ └── tailwind.css # Tailwind framework
+ │ └── tailwind.css # Tailwind framework
 <br>
 └── README.md # Project documentation
